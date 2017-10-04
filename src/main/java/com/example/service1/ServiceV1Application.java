@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class ServiceV1Application {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ServiceV1Application.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ServiceV1Application.class, args);
+    }
 
     @RequestMapping("/")
     public String service() {
